@@ -46,7 +46,6 @@ namespace Practice
             name = "";
             for(int i=0; i < fio.Length; i++)
             {
-                //fio[i][0].ToString().ToUpper();
                 fio[i] = fio[i].Substring(0, 1).ToUpper() + fio[i].Substring(1);
                 name += fio[i] + " ";
             }
